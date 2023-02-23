@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 #headerImage{
     background-image:url("img/pierre.webp");
     background-size: cover;
