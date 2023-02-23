@@ -12,6 +12,7 @@
     background-image: url("img/Vector-web.svg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .customRotatedGradientWeb{
@@ -25,3 +26,4 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
