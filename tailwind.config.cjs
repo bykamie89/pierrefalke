@@ -20,11 +20,16 @@ module.exports = {
         h1SizeWeb: '120px',
         h2SizeMobile: '31.25px',
         h2SizeWeb: '26px',
+        h2SizeWebQuote: '55px',
         pSizeMobile: '16px',
+        pSizeWeb: '22px',
       },
       opacity: {
         imgOpacityMobile: '50%',
         imgOpacityWeb: '60%',
+      },
+      padding: {
+        outerPadding: '3rem',
       },
     },
   },
