@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body class="m-0 p-0 text-xl text-amber-300">
+  <body>
     <div>
       <section class="flex h-screen items-center justify-center bg-cover bg-local bg-no-repeat" style="background-image: url(https://picsum.photos/1000)">
         <h1 class="absolute left-0 -rotate-90">Pierre Falcke</h1>
@@ -20,21 +20,23 @@
       <h1>Det svarer til én fotolicens hvert 16. sekund</h1>
       <h1>Du ser hans fotos ca. 2 gange om dagen</h1>
     </section>
-    <section class="prose ml-5 mr-5 lg:ml">
-      <h1>Stock-fotos</h1>
-      <p>Stock-fotos er billeder, der kan købes fra et fotowebsite. De bruges af aviser, til markedsføring og som indhold på websites. 
-        En licens til at bruge et foto koster typisk mellem 10 og 100 kroner, alt afhængig af hvad de skal bruges til.</p>
+    <section class="ml-5 mr-5 lg:ml-20 lg:mr-20">
+      <h1 class="prose font-sans text-6xl font-bold">Stock-fotos</h1>
+      <br />
+      <p>Stock-fotos er billeder, der kan købes fra et fotowebsite. De bruges af aviser, til markedsføring og som indhold på websites. En licens til at bruge et foto koster typisk mellem 10 og 100 kroner, alt afhængig af hvad de skal bruges til.</p>
+      <br />
       <div class="grid grid-cols-2 gap-5">
         <div class="fotoinview">
-        <img src="img/apoteket.webp" alt="apoteker" /></div>
-        <p>Stock-fotos bliver ofte kritiseret for at være uden sjæl - det er de der billeder af en læge i hvid kittel med stetoskop om halsen på en meget hvid baggrund eller en meget glad dame fra virksomhedens salgs- eller supportafdeling. </p>
+          <img src="img/apoteket.webp" alt="apoteker" />
+        </div>
+        <p>Stock-fotos bliver ofte kritiseret for at være uden sjæl - det er de der billeder af en læge i hvid kittel med stetoskop om halsen på en meget hvid baggrund eller en meget glad dame fra virksomhedens salgs- eller supportafdeling.</p>
       </div>
-      <p>Stock-fotos har eksisteret i mange år. Før branchen blev digital, tilbød stock-foto virksomhederne billedmapper, der kunne bestilles fra. Men stock-foto branchen var én af de tidlige til at blive fuldt digitaliseret.</p>
+      <br />
+      <p class="mb-5">Stock-fotos har eksisteret i mange år. Før branchen blev digital, tilbød stock-foto virksomhederne billedmapper, der kunne bestilles fra. Men stock-foto branchen var én af de tidlige til at blive fuldt digitaliseret.</p>
     </section>
     <section>
-      <div class=""> 
-        <img src="img/pierre-2.webp" alt="Pierre Falcke" />
-        <h1>Pierres berømmelse</h1>
+      <div class="flex h-screen items-center justify-center bg-cover bg-local bg-no-repeat" style="background-image: url(/img/pierre-2.webp)">
+        <h1 class="absolute left-44 text-8xl font-bold text-slate-400">Pierres <br> berømmelse</h1>
       </div>
       <div>
         <p>Pierres interesse for foto startede som ganske ung - som 10-årig fik han sin fars gamle Rollei-kamera, og begyndte at skyde løs. Det var før den digitale revolution, så alle Pierres lommepenge blev brugt på filmruller og fremkaldelse af film. Pierre fortsatte med at fotografere på film op gennem gymnasietiden.</p>
