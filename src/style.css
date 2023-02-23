@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+#headerImage{
+    background-image:url("img/pierre.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.customGradientWeb{
+    background-image: url("img/Vector-web.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.customRotatedGradientWeb{
+    background-image: url("img/Vector-rotated.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.customGradientMobile{
+    background-image: url("img/Vector.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
